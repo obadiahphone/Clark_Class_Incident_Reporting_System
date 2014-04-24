@@ -21,6 +21,7 @@ Vision Values
 Respect Integrity Communication Excellence
 
 Source:
+
   Enron Code of Ethics: Page 4
 
 
@@ -49,7 +50,17 @@ Personas (In order of priviledge level. Higher levels inherit abilities of lower
   
 All are assumed to be an employee or contractor
 
-## Function  - High Level
+## Screen Functions
+
+Four screens will be developped:
+* Login
+  * Required for all IRS users
+* List Tickets  
+  * Read only view of IRS tickets 
+* Update Tickets
+  * Manager and Helpdesk access
+* Delete Tickets
+  * System Adminstrator access  
 
 ### Login Screen
     
@@ -83,26 +94,19 @@ Helpdesk and Manager can add assets software and software versions.
 
 Listings to filter by status/date/user/tag/type assigned/unassigned open/closed
 
-#### Other Notes
+#### Additional Notes on screen development
 
-###### * Marc has complete notes on schema development    
-Some of the data fields we will need are 
-priorty
-status
-notes
-type 
-Ticket tag
-dept
+Because of the timeline for this project IT will populate asset and software values.
+Scripts can be provided to System Administrator for system maintenance.
+Error Listing for system administration can be performed with scripts.
+We propose to defer developing CRUD screens for asset and software.
+Additionally screens to list errors could be deferred to the next release of IRS.
+This will allow rigorous testing and smoother production implementation.
 
-Tables
-ticket table
-user table
-equipment
-Installed Software table ( this was added after our meeting with Mr Greenwell)
+Note: CRUD is an acronym for Create, Read, Update and Delete.
 
-We will need a separate table for hardware linked to users
-What we are saying is a Greenwell employee uses a computer and we are listing that relationship in data tables.
-    
+
+
     
 ### Existing System
     
@@ -190,15 +194,49 @@ Minimum information to user on failure
    
     
 ### Security
-    
+ 
 Not in the scope of this project
 Users will use the Greenwell LAN ( local Area Network )
 No access allowed outside the lan (Per Mr Greenwell)
+
+Note: We will provide a system safe from SQL code injection.
+
+
+
     
 ## Help
     
 The IRS team will stage training sessions.
+We will also work with technical writing to develop IRS use guides.
 
-- [x] Specfications IRS
+#### Other Notes
+
+###### *Marc has complete notes on schema development    
+Some of the data fields we will need are 
+priorty
+status
+notes
+type 
+Ticket tag
+dept
+
+Tables
+ticket table
+user table
+equipment
+Installed Software table ( this was added after our meeting with Mr Greenwell)
+
+We will need a separate table for hardware linked to users
+What we are saying is a Greenwell employee uses a computer and we are listing that relationship in data tables.
+    
+
+
+
+- [x] Project Functional Specification
+- [x] Rules of Engagement
+- [x] Team member roles and responsibilities
+- [x] Initial thoughts on application design approach
 - [ ] Sign off from Mr Greenwell
 
+- [ ] Approve 
+- [ ] Approve with changes
