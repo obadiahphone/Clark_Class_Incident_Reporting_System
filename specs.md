@@ -29,7 +29,8 @@ Source:
 
 This project seeks to create a functional IT Help Desk and Asset Management system for Greenwell Bank. It will be a web-based system where users will log in and, depending on their role in the bank, will be able to submit, view, take, release, and close tickets for IT help desk. Additionally, it will keep track of the computer hardware and software assets of employees and departments within the company.
 
-IRS will be designed to handle 2000 users.
+IRS will be designed to handle 2000 users. 
+Users of the IRS system should expect screen response time less than 700 milliseconds.
 
 
 Personas (In order of priviledge level. Higher levels inherit abilities of lower tiers.)
@@ -104,16 +105,17 @@ Additionally screens to list errors could be deferred to the next release of IRS
 This will allow rigorous testing and smoother production implementation.
 
 Note: CRUD is an acronym for Create, Read, Update and Delete.
-
-
-
-    
+   
 ### Existing System
     
 There is no existing computer based system.
+No systematic method to track harware and sofware life cycles.
 
+### Disaster Preparedness
 
-    
+Should the IRS system not be accessable forms will be developed to log problems.
+These can be entered after the system is restored.
+
 ### User Cases
 
 For the IRS system we will use "persona's" to tease out the requirements.
@@ -190,15 +192,16 @@ Gertrude spoke with Slim and he created a special data extract for her. She is m
 
 ### Error Handling
 
-Log non critical errors
-Minimum information to user on failure
-   
+Log non critical errors.
+Minimum information to user on failure.
+System Administrator will be able to list errors and follow up with corrections.
     
 ### Security
  
 A air tight secure system is not required for this project.
 Users will use the Greenwell LAN ( local Area Network )
 No access allowed outside the lan (Per Mr Greenwell)
+
 We will provide a system safe from SQL code injection.
 
 Password requirement will follow guidelines set forth in the _Enron Code of Ethics_ 
@@ -228,11 +231,13 @@ Tables
 * equipment
 * installed software table 
 
+## Request for Specification Sign off
 
 - [x] Project Functional Specification
 - [x] Rules of Engagement
 - [x] Team member roles and responsibilities
 - [x] Initial thoughts on application design approach
+
 - [ ] Sign off from Mr Greenwell
 
 - [ ] Approve 
