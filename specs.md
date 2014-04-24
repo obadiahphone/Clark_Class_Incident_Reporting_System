@@ -5,21 +5,31 @@
 2. Marc Kleefstra
 3. Earle Cottingham
 
-#### * Roles for team members as follows
+#### *Roles for team members as follows
 
 |Patrick          | Marc            | Earle           |
-|:---------------:|:---------------:|:---------------:|
+|:---------------|:---------------|:---------------|
 |Project Mgr      |Lead Programmer  |Lead Tester      |
 |Design Test Plan |DBA              |Programmer       |
 |User Experience  |Process Design   |Training Liaison |
 |Documentation    |Test Design      |Interface Review |
+|Production Checklist|Migration Plan|System Testing |
 
+###### Rules of Engagement/Conduct 
 
+Vision Values
+Respect Integrity Communication Excellence
+
+Source:
+  Enron Code of Ethics: Page 4
 
 
 ### General
 
 This project seeks to create a functional IT Help Desk and Asset Management system for Greenwell Bank. It will be a web-based system where users will log in and, depending on their role in the bank, will be able to submit, view, take, release, and close tickets for IT help desk. Additionally, it will keep track of the computer hardware and software assets of employees and departments within the company.
+
+IRS will be designed to handle 2000 users.
+
 
 Personas (In order of priviledge level. Higher levels inherit abilities of lower tiers.)
   General User
@@ -98,7 +108,6 @@ What we are saying is a Greenwell employee uses a computer and we are listing th
     
 There is no existing computer based system.
 
-~~What occurs as I have observed is that Mary down in accounting calls her best frind Sally on the help desk and she gets more memory for her computer while IT has 286's.~~
     
 ### User Cases
 
@@ -114,7 +123,7 @@ Persona defined:
 
 #### For the *General User* we will have Tom and Gery.
 
-Tom is a technical writer and provides office staff support at Greenwood.
+Tom is a technical writer and provides office staff support at Greenwell.
 Tom is a new employee. 
 He attends college and is studying IT.
 
@@ -133,14 +142,14 @@ Hurley wants a system that is faster than what he uses today.
 
 #### For the *Executive* we will have Günther and Gertrude.
 
-Günther owned Greenwood Bank up until when he sold a controlling interest. 
+Günther owned Greenwell Bank up until when he sold a controlling interest. 
 Günther looks forward to IRS going into production.
 He wants to save money and get better use from his help staff.
 There has been increasing pressure from the stock holders to streamline operations.
-Günther has started 4 projects at Greenwood in the las couple of weeks.
+Günther has started 4 projects at Greenwell in the las couple of weeks.
 
 
-Gertrude is the COO at Greenwood. Mostly her secretaries use her computers.
+Gertrude is the COO at Greenwell. Mostly her secretaries use her computers.
 Those that can recall the old days remember the time Gertrude stuffed two floppies into one slot on her computer.
 
 #### Sys Admin will be Slim 
