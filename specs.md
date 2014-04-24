@@ -117,6 +117,7 @@ Note: CRUD is an acronym for Create, Read, Update and Delete.
     
 There is no existing computer based system.
 No systematic method to track harware and sofware life cycles.
+
 Employees with computer problems cannot find the status of there problem with out an interupting phone call or vist to person trying to correct the problem.
 
 ### Disaster Preparedness
