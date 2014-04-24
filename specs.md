@@ -212,7 +212,7 @@ We will also work with technical writing to develop IRS use guides.
 
 #### Initial thoughts on application design approach
 
-###### *Marc has complete notes on schema development    
+###### Marc has complete notes on schema development    
 Some of the data fields we will need are 
 priorty
 status
