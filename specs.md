@@ -214,24 +214,19 @@ We will also work with technical writing to develop IRS use guides.
 #### Initial thoughts on application design approach
 
 ###### Marc has complete notes on schema development    
-Some of the data fields we will need are 
-priorty
-status
-notes
-type 
-Ticket tag
-dept
+Some of the data fields we will need are:
+
+* status
+* notes
+* type 
+* ticket tag
+* dept
 
 Tables
-ticket table
-user table
-equipment
-Installed Software table ( this was added after our meeting with Mr Greenwell)
-
-We will need a separate table for hardware linked to users
-What we are saying is a Greenwell employee uses a computer and we are listing that relationship in data tables.
-    
-
+* ticket table
+* user table
+* equipment
+* installed software table 
 
 
 - [x] Project Functional Specification
