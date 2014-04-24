@@ -202,6 +202,7 @@ No access allowed outside the lan (Per Mr Greenwell)
 We will provide a system safe from SQL code injection.
 
 Password requirement will follow guidelines set forth in the _Enron Code of Ethics_ 
+    
     Page 35 first two paragraphs
 
     
