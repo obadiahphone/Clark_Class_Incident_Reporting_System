@@ -17,8 +17,12 @@
 
 ###### Rules of Engagement/Conduct 
 
-Vision Values
-Respect Integrity Communication Excellence
+* Vision
+* Values
+* Respect
+* Integrity
+* Communication
+* Excellence
 
 Source:
 
@@ -99,9 +103,12 @@ Listings to filter by status/date/user/tag/type assigned/unassigned open/closed
 
 Because of the timeline for this project IT will populate asset and software values.
 Scripts can be provided to System Administrator for system maintenance.
+
 Error Listing for system administration can be performed with scripts.
+
 We propose to defer developing CRUD screens for asset and software.
 Additionally screens to list errors could be deferred to the next release of IRS.
+
 This will allow rigorous testing and smoother production implementation.
 
 Note: CRUD is an acronym for Create, Read, Update and Delete.
@@ -110,15 +117,19 @@ Note: CRUD is an acronym for Create, Read, Update and Delete.
     
 There is no existing computer based system.
 No systematic method to track harware and sofware life cycles.
+Employees with computer problems cannot find the status of there problem with out an interupting phone call or vist to person trying to correct the problem.
 
 ### Disaster Preparedness
 
-Should the IRS system not be accessable forms will be developed to log problems.
-These can be entered after the system is restored.
+Paper forms will be developed to log problems.
+
+Should the IRS system not be accessable forms will be deployed for problems resolution.
+
+The data can be entered after the system is restored.
 
 ### User Cases
 
-For the IRS system we will use "persona's" to tease out the requirements.
+For the IRS system we will use "Persona's" to tease out the requirements.
 
 Persona defined: 
 **Wikipedia**
