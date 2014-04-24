@@ -22,7 +22,7 @@ Respect Integrity Communication Excellence
 
 Source:
 
-  Enron Code of Ethics: Page 4
+    Enron Code of Ethics: Page 4
 
 
 ### General
@@ -111,6 +111,7 @@ Note: CRUD is an acronym for Create, Read, Update and Delete.
 ### Existing System
     
 There is no existing computer based system.
+
 
     
 ### User Cases
@@ -209,7 +210,7 @@ Note: We will provide a system safe from SQL code injection.
 The IRS team will stage training sessions.
 We will also work with technical writing to develop IRS use guides.
 
-#### Other Notes
+#### Initial thoughts on application design approach
 
 ###### *Marc has complete notes on schema development    
 Some of the data fields we will need are 
